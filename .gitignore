@@ -1,0 +1,40 @@
+# 忽略游戏本体与美术资源
+*.exe
+*.dll
+*.pdb
+*.iwm
+*.asset
+*.assets
+*.unity3d
+*.png
+*.jpg
+*.jpeg
+*.psd
+*.wav
+*.mp3
+*.ogg
+*.ttf
+*.otf
+
+# 忽略反编译产物与构建输出
+iw-opensource/
+src/
+src_vanilla/
+build/
+obj/
+bin/
+refs/
+
+# 忽略日志与临时文件
+*.log
+*.tmp
+logs/
+.output/
+_temp/
+__pycache__/
+*.pyc
+
+# 系统文件
+Thumbs.db
+desktop.ini
+.DS_Store
